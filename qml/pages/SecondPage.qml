@@ -69,7 +69,7 @@ Page {
             color: Theme.secondaryColor
             wrapMode: Text.WrapAtWordBoundaryOrAnywhere
             text: qsTr("Scaler is licensed under the terms of ")
-                  + qsTr("the GNU General Public License v3.")
+                  + qsTr("the MIT License.")
         }
 
         Item {

@@ -4,14 +4,7 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source>My Cover</source>
-        <translation>Mein Cover</translation>
-    </message>
-</context>
-<context>
-    <name>FirstPage</name>
-    <message>
-        <source>About</source>
+        <source>Scaler</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -38,7 +31,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>the GNU General Public License v3.</source>
+        <source>the MIT License.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

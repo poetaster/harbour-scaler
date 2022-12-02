@@ -5,9 +5,14 @@ CoverBackground {
     Label {
         id: label
         anchors.centerIn: parent
-        text: qsTr("My Cover")
+        text: qsTr("Scaler")
     }
-
+    Image {
+        id:sImage
+        anchors.centerIn: parent
+        source: "/usr/share/icons/hicolor/128x128/apps/harbour-scaler.png"
+    }
+    /*
     CoverActionList {
         id: coverAction
 
@@ -19,4 +24,5 @@ CoverBackground {
             iconSource: "image://theme/icon-cover-pause"
         }
     }
+    */
 }

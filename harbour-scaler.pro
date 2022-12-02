@@ -23,9 +23,7 @@ DISTFILES += qml/harbour-scaler.qml \
     qml/scaler/static/js/*.js \
     qml/scaler/favicons/*.* \
     rpm/harbour-scaler.changes.in \
-    rpm/harbour-scaler.changes.run.in \
     rpm/harbour-scaler.spec \
-    rpm/harbour-scaler.yaml \
     translations/*.ts \
     harbour-scaler.desktop
 
