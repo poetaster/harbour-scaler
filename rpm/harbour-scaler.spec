@@ -16,7 +16,6 @@ License:    MIT
 BuildArch:  noarch
 URL:        http://example.org/
 Source0:    %{name}-%{version}.tar.bz2
-Source100:  harbour-scaler.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
 Requires:   libsailfishapp-launcher
 Requires:   sailfish-components-webview-qt5
