@@ -3,10 +3,19 @@ Type=Application
 X-Nemo-Application-Type=silica-qt5
 Icon=harbour-scaler
 Exec=sailfish-qml harbour-scaler
-Name=harbour-scaler
+Name=Scaler
 # translation example:
 # your app name in German locale (de)
 #
 # Remember to comment out the following line, if you do not want to use
 # a different app name in German locale (de).
-Name[de]=harbour-scaler
+Name[de]=Scaler
+
+[X-HarbourBackup]
+BackupPathList=.local/share/de.poetaster/harbour-scaler/
+
+[X-Sailjail]
+OrganizationName=de.poetaster
+ApplicationName=harbour-scaler
+Permissions=UserDirs;WebView;Audio
+

@@ -12,7 +12,7 @@ Summary:    Scaler Multi-track Math Synth
 Version:    0.1
 Release:    1
 Group:      Qt/Qt
-License:    LICENSE
+License:    MIT
 BuildArch:  noarch
 URL:        http://example.org/
 Source0:    %{name}-%{version}.tar.bz2
@@ -22,6 +22,7 @@ Requires:   libsailfishapp-launcher
 Requires:   qtmozembed-qt5
 Requires:   sailfish-components-webview-qt5
 
+BuildRequires:  qt5-qttools-linguist
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.3
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
@@ -29,8 +30,23 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-Short description of my Sailfish OS Application
+Scaler Multi-track Math Synth derived from https://alexcrist.github.io/scaler/
 
+%if "%{?vendor}" == "chum"
+PackageName: Scaler
+Type: desktop-application
+Categories:
+ - Game
+PackagerName: Mark Washeim (poetaster)
+Custom:
+ - Repo: https://github.com/poetaster/harbour-scaler
+Icon: https://raw.githubusercontent.com/poetaster/harbour-scaler/main/icons/128x128/harbour-scaler.png
+Screenshots:
+ - https://raw.githubusercontent.com/poetaster/harbour-scaler/main/screen-1.png
+ - https://raw.githubusercontent.com/poetaster/harbour-scaler/main/screen-2.png
+ - https://raw.githubusercontent.com/poetaster/harbour-scaler/main/screen-3.png
+ - https://raw.githubusercontent.com/poetaster/harbour-scaler/main/screen-4.png
+%endif
 
 %prep
 %setup -q -n %{name}-%{version}

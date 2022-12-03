@@ -6,7 +6,8 @@ import Sailfish.WebEngine 1.0
 Page {
     id: page
     // The effective value will be restricted by ApplicationWindow.allowedOrientations
-    allowedOrientations: Orientation.Portrait
+    //allowedOrientations: Orientation.Portrait
+    allowedOrientations: defaultAllowedOrientations
 
     WebView {
         id: webView
