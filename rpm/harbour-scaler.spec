@@ -14,7 +14,7 @@ Release:    1
 Group:      Qt/Qt
 License:    MIT
 BuildArch:  noarch
-URL:        http://example.org/
+URL:        https://github.com/poetaster/harbour-scaler
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   sailfishsilica-qt5 >= 0.10.9
 Requires:   libsailfishapp-launcher
