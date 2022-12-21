@@ -44,6 +44,7 @@ Screenshots:
  - https://raw.githubusercontent.com/poetaster/harbour-scaler/main/screen-2.png
  - https://raw.githubusercontent.com/poetaster/harbour-scaler/main/screen-3.png
  - https://raw.githubusercontent.com/poetaster/harbour-scaler/main/screen-4.png
+
 %endif
 
 %prep
