@@ -9,7 +9,7 @@ Name:       harbour-scaler
 # << macros
 
 Summary:    Scaler Multi-track Math Synth
-Version:    0.1
+Version:    0.2
 Release:    1
 Group:      Qt/Qt
 License:    MIT
